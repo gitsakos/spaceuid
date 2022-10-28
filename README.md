@@ -16,7 +16,7 @@ go get github.com/gitsakos/spaceuid
 
 ## Usage Example
 
-To turn your custom typed ID into a space ID, simply implement the SpaceUID interface.
+To turn your custom typed ID into a SpaceUID, simply implement the SpaceUID interface.
 
 
 ```go
@@ -46,5 +46,5 @@ var Identities = spaceuid.SpaceUIDsMap{
 }
 
 
-id, err := Identities.GetID("user":1001)
+id, err := Identities.GetID("user":1234)
 ```
