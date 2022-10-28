@@ -8,7 +8,7 @@ type SpaceUID interface {
 	New(string) (SpaceUID, error)
 	SUID() string   //identity-space unique ID
 	Space() string  //identity-space name
-	String() string // "[space]_[id]"
+	String() string // "[space]-[id]"
 }
 
 type SpaceUIDs []SpaceUID
